@@ -23,12 +23,15 @@ Maintains conversation state with a list of messages, looping until the task is 
 Verbose mode (--verbose) shows token usage, function calls, and their outputs.
 
 📦 Example usage
+`
 uv run main.py "get the contents of README.md"
 uv run main.py "run tests.py" --verbose
 uv run main.py "create a new file called hello.txt with the contents 'Hi there!'"
+`
 
 🎓 Learning Outcomes
 - Safe execution and file handling in Python.
 - Prompt engineering and iterative LLM design.
 - CLI interface design with argparse and environment variables.
 - Building a loop-based AI agent with real-world utility.
+
